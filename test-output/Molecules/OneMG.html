@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>OneMG</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 29 18:58:25 IST 2023</td>
+<td>Started on:</td><td>Fri Sep 29 19:18:05 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>907 seconds (907246 ms)</td>
+<tr><td>Total time:</td><td>126 seconds (126518 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,27 +67,187 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Adrenaline (1Mg)</td>
-<td></td>
-<td>106</td>
+<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Air Mattress</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2124649286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2124649286'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
 <td>com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87</td></tr>
 <tr>
-<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Acetylcysteine-200Mg</td>
-<td></td>
-<td>434</td>
+<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Amoxycillin 250 Mg+Clavulanic Acid 125 Mg</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1739815690", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1739815690'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
 <td>com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87</td></tr>
 <tr>
-<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Acyclovir (800Mg)</td>
-<td></td>
-<td>893</td>
+<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Aflapin 100 Mg+Collagen 40 Mg+Mobilee 40 Mg</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace49978149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace49978149'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
+<td>com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87</td></tr>
+<tr>
+<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Albumin (20%)</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2109804529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2109804529'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
+<td>com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87</td></tr>
+<tr>
+<td title='com.leaftaps.testcases.OneMg_CommonTests.runTests()'><b>runTests</b><br>Test class: com.leaftaps.testcases.OneMg_CommonTests<br>Parameters: Amoxycillin (500Mg) + Clavulanic Acid (125Mg)</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1653869342", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1653869342'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.isDisplayed()&quot; because &quot;ele&quot; is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
 <td>com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87</td></tr>
 </table><p>
 </body>

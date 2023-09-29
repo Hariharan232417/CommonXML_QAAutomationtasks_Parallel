@@ -5,7 +5,7 @@
 	<test name="OneMG" parallel="methods">
 		<parameter name="url" value="https://www.netmeds.com/" />
 		<classes>
-			<class name="com.leaftaps.testcases.OneMg_CommonTests" />
+			<class name="com.leaftaps.testcases.Netmeds_CommonTests" />
 		</classes>
 	</test>
 	

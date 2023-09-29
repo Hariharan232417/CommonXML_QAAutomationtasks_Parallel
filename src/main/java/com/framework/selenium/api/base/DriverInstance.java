@@ -45,8 +45,8 @@ public class DriverInstance  extends AbstractTestNGCucumberTests{
 			//chrome_options.addArguments("--headless");
 			//DesiredCapabilities dc = new DesiredCapabilities(chrome_options);
 			//dc.setCapability("name", "HARI");
-			//remoteWebdriver.set(new RemoteWebDriver(new URL("http://"+ConfigurationManager.configuration().gridUrl()+":"+ConfigurationManager.configuration().gridPort()+"/wd/hub"), chrome_options));
-			remoteWebdriver.set(new ChromeDriver(chrome_options));
+			remoteWebdriver.set(new RemoteWebDriver(new URL("http://"+ConfigurationManager.configuration().gridUrl()+":"+ConfigurationManager.configuration().gridPort()+"/wd/hub"), chrome_options));
+			//remoteWebdriver.set(new ChromeDriver(chrome_options));
 			break;
 		case "firefox":
 			FirefoxOptions firefox_options = new FirefoxOptions();

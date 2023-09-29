@@ -1,126 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T13:28:25Z" name="Molecules" finished-at="2023-09-29T13:43:32Z" duration-ms="907246">
+  <suite started-at="2023-09-29T13:48:05Z" name="Molecules" finished-at="2023-09-29T13:50:12Z" duration-ms="126518">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-09-29T13:28:25Z" name="OneMG" finished-at="2023-09-29T13:43:32Z" duration-ms="907246">
+    <test started-at="2023-09-29T13:48:05Z" name="OneMG" finished-at="2023-09-29T13:50:12Z" duration-ms="126518">
       <class name="com.leaftaps.testcases.OneMg_CommonTests">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="startReport" finished-at="2023-09-29T18:58:25Z" duration-ms="146" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:05Z" name="startReport" finished-at="2023-09-29T19:18:05Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setValues()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="setValues" finished-at="2023-09-29T18:58:25Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setValues()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:05Z" name="setValues" finished-at="2023-09-29T19:18:05Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="setUpClass" finished-at="2023-09-29T18:58:25Z" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:05Z" name="setUpClass" finished-at="2023-09-29T19:18:05Z" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="startTestCase" finished-at="2023-09-29T18:58:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:05Z" name="startTestCase" finished-at="2023-09-29T19:18:05Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="preCondition" finished-at="2023-09-29T18:58:32Z" duration-ms="6585" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:06Z" name="preCondition" finished-at="2023-09-29T19:18:19Z" duration-ms="13252" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.1mg.com/]]>
+                <![CDATA[https://www.netmeds.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="preCondition" finished-at="2023-09-29T18:58:32Z" duration-ms="6565" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:06Z" name="preCondition" finished-at="2023-09-29T19:19:51Z" duration-ms="105358" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.1mg.com/]]>
+                <![CDATA[https://www.netmeds.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:25Z" name="preCondition" finished-at="2023-09-29T18:58:33Z" duration-ms="7607" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:06Z" name="preCondition" finished-at="2023-09-29T19:18:19Z" duration-ms="13142" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.1mg.com/]]>
+                <![CDATA[https://www.netmeds.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:32Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:05:47Z" duration-ms="434888" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:06Z" name="preCondition" finished-at="2023-09-29T19:18:23Z" duration-ms="16968" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Acetylcysteine-200Mg]]>
+                <![CDATA[https://www.netmeds.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:32Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:00:18Z" duration-ms="106262" status="PASS">
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:06Z" name="preCondition" finished-at="2023-09-29T19:18:19Z" duration-ms="12737" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Adrenaline (1Mg)]]>
+                <![CDATA[https://www.netmeds.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T18:58:33Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:13:27Z" duration-ms="893798" status="PASS">
+        </test-method> <!-- preCondition -->
+        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:19Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:18:34Z" duration-ms="15356" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Acyclovir (800Mg)]]>
+                <![CDATA[Air Mattress]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:00:18Z" name="postCondition" finished-at="2023-09-29T19:00:24Z" duration-ms="5195" status="PASS">
+        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:19Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:18:34Z" duration-ms="15288" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amoxycillin 250 Mg+Clavulanic Acid 125 Mg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:19Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:18:34Z" duration-ms="15349" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aflapin 100 Mg+Collagen 40 Mg+Mobilee 40 Mg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:23Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:18:38Z" duration-ms="15641" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albumin (20%)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:34Z" name="postCondition" finished-at="2023-09-29T19:18:39Z" duration-ms="5273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:00:24Z" name="updateResult" finished-at="2023-09-29T19:00:24Z" duration-ms="525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:05:47Z" name="postCondition" finished-at="2023-09-29T19:05:52Z" duration-ms="5157" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:34Z" name="postCondition" finished-at="2023-09-29T19:18:40Z" duration-ms="5316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:05:52Z" name="updateResult" finished-at="2023-09-29T19:05:52Z" duration-ms="60" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateResult -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:13:27Z" name="postCondition" finished-at="2023-09-29T19:13:32Z" duration-ms="5162" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:34Z" name="postCondition" finished-at="2023-09-29T19:18:40Z" duration-ms="5273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:13:32Z" name="updateResult" finished-at="2023-09-29T19:13:32Z" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:38Z" name="postCondition" finished-at="2023-09-29T19:18:44Z" duration-ms="5151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:39Z" name="updateResult" finished-at="2023-09-29T19:18:39Z" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateResult -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:13:32Z" name="tearDownClass" finished-at="2023-09-29T19:13:32Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:40Z" name="updateResult" finished-at="2023-09-29T19:18:40Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:40Z" name="updateResult" finished-at="2023-09-29T19:18:40Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:18:44Z" name="updateResult" finished-at="2023-09-29T19:18:44Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method signature="runTests(java.lang.String)[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:19:51Z" name="runTests" data-provider="fetchData" finished-at="2023-09-29T19:20:07Z" duration-ms="15339" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amoxycillin (500Mg) + Clavulanic Acid (125Mg)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "ele" is null
+	at com.framework.selenium.api.base.SeleniumBase.click(SeleniumBase.java:107)
+	at com.leaftaps.pages.OneMG_MainPage.closeBanner(OneMG_MainPage.java:39)
+	at com.leaftaps.testcases.OneMg_CommonTests.runTests(OneMg_CommonTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:20:07Z" name="postCondition" finished-at="2023-09-29T19:20:12Z" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="updateResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:20:12Z" name="updateResult" finished-at="2023-09-29T19:20:12Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResult -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:20:12Z" name="tearDownClass" finished-at="2023-09-29T19:20:12Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="endResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:13:32Z" name="endResult" finished-at="2023-09-29T19:13:32Z" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="endResult()[pri:0, instance:com.leaftaps.testcases.OneMg_CommonTests@1b1cfb87]" started-at="2023-09-29T19:20:12Z" name="endResult" finished-at="2023-09-29T19:20:12Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endResult -->

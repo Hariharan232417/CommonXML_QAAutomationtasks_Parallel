@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite data-provider-thread-count="3" name="Failed suite [Molecules]" guice-stage="DEVELOPMENT">
+<suite data-provider-thread-count="5" name="Failed suite [Molecules]" guice-stage="DEVELOPMENT">
   <test parallel="methods" name="OneMG(failed)">
-    <parameter name="url" value="https://www.1mg.com/"/>
+    <parameter name="url" value="https://www.netmeds.com/"/>
     <classes>
       <class name="com.leaftaps.testcases.OneMg_CommonTests">
         <methods>
+          <include name="postCondition"/>
           <include name="startTestCase"/>
           <include name="setUpClass"/>
           <include name="setValues"/>
           <include name="updateResult"/>
-          <include name="runTests" invocation-numbers="0 2 1"/>
+          <include name="runTests" invocation-numbers="1 4 0 2 3"/>
           <include name="preCondition"/>
           <include name="tearDownClass"/>
           <include name="endResult"/>
