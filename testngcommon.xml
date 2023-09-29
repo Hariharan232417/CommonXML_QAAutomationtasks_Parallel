@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- data-provider-thread-count="3"  -->
+<suite name="Molecules" data-provider-thread-count="5">
+	<test name="OneMG" parallel="methods">
+		<parameter name="url" value="https://www.netmeds.com/" />
+		<classes>
+			<class name="com.leaftaps.testcases.OneMg_CommonTests" />
+		</classes>
+	</test>
+	
+</suite>

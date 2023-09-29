@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.leaftaps.testcases.OneMg_CommonTests">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="setUpClass"/>
+          <include name="setValues"/>
+          <include name="updateResult"/>
+          <include name="runTests" invocation-numbers="1 0 2"/>
+          <include name="tearDownClass"/>
+          <include name="endResult"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.leaftaps.testcases.OneMg_CommonTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
