@@ -45,6 +45,14 @@ public class MainPage_Netmeds extends ProjectHooks{
 	public MainPage_Netmeds scrollTillLastMoleculeResults() {
 		
 		int totalAlternatives = periodicallyCheck_For_NewCardLoads(xpath_AllCards);
+				
+		if(totalAlternatives>0 && totalAlternatives<=500)		
+			reportStep("Successfully scrolled till last Page. Total Alternatives - "+totalAlternatives,"pass");
+		else
+		{
+			reportStep("Beyond or Below the threshold count. Total Alternatives - "+totalAlternatives,"fail");
+			throw new RuntimeException("Test aborted");
+		}
 		
 		reportStep("Successfully scrolled till last element. Total Alternatives - "+totalAlternatives,"pass");
 		return this;
