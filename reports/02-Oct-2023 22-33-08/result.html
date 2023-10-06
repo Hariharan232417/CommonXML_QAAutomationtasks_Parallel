@@ -1,0 +1,1073 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>Leaftaps</title>
+
+	<style type='text/css'>
+	</style>
+</head>
+
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+				<li class='waves-effect'><a href='#!' view='author-view' onclick="configureView(3)"><i class='material-icons'>person</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>Leaftaps</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Oct 2, 2023 10:33:08 PM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.5</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>ExtractDatas</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>OneMg</span>
+						<span class='test-time'>Oct 2, 2023 10:33:40 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 2, 2023 10:33:40 PM</span>
+	<span class='label end-time'>Oct 2, 2023 10:41:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 7m 40s+512ms</span>
+</div>
+	<div class='test-desc'>Extract Data from One MG App and store it in Excel - OneMg </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>ExtractDatas</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Hari</span>
+			</div>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='2'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>OneMg</h5>
+						<span class="node-time label grey lighten-1 white-text">Oct 2, 2023 10:41:21 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 7m 40s+506ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:45 PM</td>
+													<td class='step-details'>Banner closed successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/531970197.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/531970197.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/531970197.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:55 PM</td>
+													<td class='step-details'>Aztreonam (1Gm) entered successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/396480670.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/396480670.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/396480670.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:16 PM</td>
+													<td class='step-details'>Successfully scrolled till last Page. Total Alternatives - 22<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/265598797.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/265598797.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/265598797.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:21 PM</td>
+													<td class='step-details'>Successfully stored all Alternatives for Molecule Aztreonam (1Gm)in a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/547776292.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/547776292.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/547776292.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:41:10 PM</td>
+													<td class='step-details'>Successfully stored all details in a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/658316098.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/658316098.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/658316098.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:41:15 PM</td>
+													<td class='step-details'>Successfully written all datas to Excel by reading Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/253033236.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/253033236.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/253033236.jpg'></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>10:41:21 PM</td>
+													<td class='step-details'>Browser is closed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>OneMg</span>
+						<span class='test-time'>Oct 2, 2023 10:33:40 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 2, 2023 10:33:40 PM</span>
+	<span class='label end-time'>Oct 2, 2023 10:53:04 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 19m 24s+46ms</span>
+</div>
+	<div class='test-desc'>Extract Data from One MG App and store it in Excel - OneMg </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>ExtractDatas</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Hari</span>
+			</div>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf fail' status='fail' test-id='4'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>OneMg</h5>
+						<span class="node-time label grey lighten-1 white-text">Oct 2, 2023 10:53:04 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 19m 24s+45ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:47 PM</td>
+													<td class='step-details'>Banner closed successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/716773989.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/716773989.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/716773989.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:06 PM</td>
+													<td class='step-details'>Bacillus Clausii 2 Billion entered successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/663579985.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/663579985.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/663579985.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:26 PM</td>
+													<td class='step-details'>Successfully scrolled till last Page. Total Alternatives - 32<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/337231508.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/337231508.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/337231508.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:31 PM</td>
+													<td class='step-details'>Successfully stored all Alternatives for Molecule Bacillus Clausii 2 Billionin a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/788314650.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/788314650.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/788314650.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:35:16 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Biogermina Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Biogermina Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Biogermina Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/483734592.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/483734592.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/483734592.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:37:05 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Bifilac Clausi Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Bifilac Clausi Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Bifilac Clausi Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/453939650.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/453939650.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/453939650.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:37:49 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Sacctik Plus Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Sacctik Plus Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Sacctik Plus Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/470688277.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/470688277.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/470688277.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:39:05 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Gutgain Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Gutgain Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Gutgain Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/13590714.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/13590714.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/13590714.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:39:48 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Progermina Bottle Oral Suspension(5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Progermina Bottle Oral Suspension(5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Progermina Bottle Oral Suspension(5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/182372560.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/182372560.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/182372560.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:42:21 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Gastrofloran Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Gastrofloran Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Gastrofloran Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/601298509.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/601298509.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/601298509.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:45:09 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Digigut-BC Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Digigut-BC Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Digigut-BC Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/449119156.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/449119156.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/449119156.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:45:49 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Bifilac Clausi Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Bifilac Clausi Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Bifilac Clausi Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/895335191.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/895335191.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/895335191.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:46:52 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Sacctik Plus Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Sacctik Plus Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Sacctik Plus Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/375635796.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/375635796.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/375635796.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:48:33 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Enterogem Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Enterogem Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Enterogem Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/140579889.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/140579889.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/140579889.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:49:15 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Gutbiome Oral Suspension (5ml Each)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Gutbiome Oral Suspension (5ml Each)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Gutbiome Oral Suspension (5ml Each)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/279957420.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/279957420.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/279957420.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:50:22 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Gutlix (5ml Each) Oral Suspension']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Gutlix (5ml Each) Oral Suspension']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Gutlix (5ml Each) Oral Suspension<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/622639676.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/622639676.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/622639676.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:52:08 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Germinatime (5ml Each) Oral Suspension']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Germinatime (5ml Each) Oral Suspension']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Germinatime (5ml Each) Oral Suspension<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/787553133.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/787553133.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/787553133.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:52:49 PM</td>
+													<td class='step-details'>no such element: Unable to locate element: {"method":"xpath","selector":"//ul//a//b[normalize-space()='Proqure-BC Oral Suspension (Each 5ml)']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c7a4f31635350b3d79cd4b12a90f9477, findElement {using=xpath, value=//ul//a//b[normalize-space()='Proqure-BC Oral Suspension (Each 5ml)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.5:4444/sessio..., se:cdpVersion: 117.0.5938.92, se:vnc: ws://172.19.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a4f31635350b3d79cd4b12a90f9477 Element not found when fetching element - Proqure-BC Oral Suspension (Each 5ml)<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/432525419.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/432525419.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/432525419.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:52:54 PM</td>
+													<td class='step-details'>Successfully stored all details in a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/42129196.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/42129196.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/42129196.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:52:59 PM</td>
+													<td class='step-details'>Successfully written all datas to Excel by reading Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/719206544.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/719206544.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/719206544.jpg'></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>10:53:04 PM</td>
+													<td class='step-details'>Browser is closed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>OneMg</span>
+						<span class='test-time'>Oct 2, 2023 10:33:40 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 2, 2023 10:33:40 PM</span>
+	<span class='label end-time'>Oct 2, 2023 10:44:49 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 11m 8s+990ms</span>
+</div>
+	<div class='test-desc'>Extract Data from One MG App and store it in Excel - OneMg </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>ExtractDatas</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Hari</span>
+			</div>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf fail' status='fail' test-id='6'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>OneMg</h5>
+						<span class="node-time label grey lighten-1 white-text">Oct 2, 2023 10:44:49 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 11m 8s+989ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:48 PM</td>
+													<td class='step-details'>Banner closed successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/378941878.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/378941878.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/378941878.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:08 PM</td>
+													<td class='step-details'>Atracurium Besylate 25 Mg /2.5Ml entered successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/636391567.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/636391567.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/636391567.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:44:39 PM</td>
+													<td class='step-details'>The Element with locator: //div[contains(@class,'row style__grid-container')]//a//span[contains(@class,'style__pro-title')] Not Found as there is Generic Exception<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/667032479.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/667032479.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/667032479.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:44:44 PM</td>
+													<td class='step-details'>Beyond or Below the threshold count. Total Alternatives - 7480<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/356998632.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/356998632.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/356998632.jpg'></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>10:44:49 PM</td>
+													<td class='step-details'>Browser is closed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>OneMg</span>
+						<span class='test-time'>Oct 2, 2023 10:33:41 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 2, 2023 10:33:41 PM</span>
+	<span class='label end-time'>Oct 2, 2023 10:35:11 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 30s+205ms</span>
+</div>
+	<div class='test-desc'>Extract Data from One MG App and store it in Excel - OneMg </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>ExtractDatas</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Hari</span>
+			</div>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='8'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>OneMg</h5>
+						<span class="node-time label grey lighten-1 white-text">Oct 2, 2023 10:35:11 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 1m 30s+205ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:46 PM</td>
+													<td class='step-details'>Banner closed successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/50002454.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/50002454.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/50002454.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:00 PM</td>
+													<td class='step-details'>Avibactam-0.5Gm + Ceftazidime-2Gm entered successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/296645142.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/296645142.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/296645142.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:18 PM</td>
+													<td class='step-details'>Successfully scrolled till last Page. Total Alternatives - 1<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/98330527.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/98330527.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/98330527.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:34:24 PM</td>
+													<td class='step-details'>Successfully stored all Alternatives for Molecule Avibactam-0.5Gm + Ceftazidime-2Gmin a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/255989201.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/255989201.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/255989201.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:35:00 PM</td>
+													<td class='step-details'>Successfully stored all details in a Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/345056658.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/345056658.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/345056658.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:35:06 PM</td>
+													<td class='step-details'>Successfully written all datas to Excel by reading Map<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/864415053.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/864415053.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/864415053.jpg'></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>10:35:11 PM</td>
+													<td class='step-details'>Browser is closed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>OneMg</span>
+						<span class='test-time'>Oct 2, 2023 10:33:41 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Oct 2, 2023 10:33:41 PM</span>
+	<span class='label end-time'>Oct 2, 2023 10:39:20 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 5m 38s+329ms</span>
+</div>
+	<div class='test-desc'>Extract Data from One MG App and store it in Excel - OneMg </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>ExtractDatas</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Hari</span>
+			</div>
+	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf fail' status='fail' test-id='10'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>OneMg</h5>
+						<span class="node-time label grey lighten-1 white-text">Oct 2, 2023 10:39:20 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 5m 38s+328ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:45 PM</td>
+													<td class='step-details'>Banner closed successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/315340782.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/315340782.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/315340782.jpg'></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>10:33:59 PM</td>
+													<td class='step-details'>Azithromycin (500Mg) entered successfully<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/374980576.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/374980576.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/374980576.jpg'></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>10:39:14 PM</td>
+													<td class='step-details'>Beyond or Below the threshold count. Total Alternatives - 2585<img data-featherlight='./../../reports/02-Oct-2023 22-33-08/images/333527999.jpg' width='10%' src='./../../reports/02-Oct-2023 22-33-08/images/333527999.jpg' data-src='./../../reports/02-Oct-2023 22-33-08/images/333527999.jpg'></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>10:39:20 PM</td>
+													<td class='step-details'>Browser is closed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='40%'><span class='strong'>2</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='60%'>3</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>22</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='38.636%'>17</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='11.364%'>5</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</div>
+<!-- test view -->
+<div id='category-view' class='view hide'>
+
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+				
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Categories</h3>
+			<ul id='category-collection' class='category-collection'>
+				
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>ExtractDatas</span>
+						<span class='category-status right'>
+							<span class='label pass'>2</span>
+							<span class='label fail'>3</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label red lighten-1 white-text'>Failed: 3</span>
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Oct 2, 2023 10:33:40 PM</td>
+										<td class='linked' test-id='1'>OneMg</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 2, 2023 10:33:40 PM</td>
+										<td class='linked' test-id='3'>OneMg</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Oct 2, 2023 10:33:40 PM</td>
+										<td class='linked' test-id='5'>OneMg</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+									<tr>
+										<td>Oct 2, 2023 10:33:41 PM</td>
+										<td class='linked' test-id='7'>OneMg</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Oct 2, 2023 10:33:41 PM</td>
+										<td class='linked' test-id='9'>OneMg</td>
+										<td><span class='test-status fail'>fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- category view -->
+<div id='author-view' class='view hide'>
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Authors' title='Search Authors'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Authors...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Authors</h5>
+                <ul id='author-collection' class='author-collection'>
+
+                        <li class='author displayed active'>
+                            <div class='author-heading'>
+                                <span class='author-name'>Hari</span>
+                                <span class='author-status right'>
+                                        <span class='label pass'>2</span>
+                                        <span class='label fail'>3</span>
+						        </span>
+                            </div>
+                            <div class='author-content hide'>
+                                <div class='author-status-counts'>
+                                    <span class='label green accent-4 white-text'>Passed: 2</span>
+                                    <span class='label red lighten-1 white-text'>Failed: 3</span>
+                                    
+                                </div>
+
+                                <div class='author-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Oct 2, 2023 10:33:40 PM</td>
+                                                <td class='linked' test-id='1'>OneMg</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oct 2, 2023 10:33:40 PM</td>
+                                                <td class='linked' test-id='3'>OneMg</td>
+                                                <td><span class='test-status fail'>fail</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oct 2, 2023 10:33:40 PM</td>
+                                                <td class='linked' test-id='5'>OneMg</td>
+                                                <td><span class='test-status fail'>fail</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oct 2, 2023 10:33:41 PM</td>
+                                                <td class='linked' test-id='7'>OneMg</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oct 2, 2023 10:33:41 PM</td>
+                                                <td class='linked' test-id='9'>OneMg</td>
+                                                <td><span class='test-status fail'>fail</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='author-name'></h5>
+        </div>
+    </div>
+</div>
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>5</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>44</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Oct 2, 2023 10:33:08 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Oct 2, 2023 10:53:09 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 20m 1s+190ms</div>
+				</div>
+			</div>
+			<div class='col s6'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Others</th>
+							<th>Passed %</th>
+						</tr>
+						<tr>
+							<td>ExtractDatas</td>
+							<td>2</td>
+							<td>3</td>
+							<td>0</td>
+							<td>
+									40%
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 2,
+				failParent: 3,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 3,
+				
+				passChild: 22,
+				failChild: 17,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 5,
+				exceptionsChild: 17,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		<script type='text/javascript'>
+			$(document).ready(function() {
+				$('#test-view-charts').addClass('hide');
+			});
+		</script>
+		
+ 		<script type='text/javascript'>
+ 		</script>
+	</body>
+	
+</html>
