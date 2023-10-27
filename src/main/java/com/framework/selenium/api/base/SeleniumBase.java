@@ -45,6 +45,8 @@ public class SeleniumBase extends ExtentReporter implements Browser, Element {
 
 	protected String getAttribute(WebElement ele, String attributeValue) {
 		String val = "";
+		
+		
 		try {
 			val = ele.getAttribute(attributeValue);
 		} catch (WebDriverException e) {
@@ -245,6 +247,7 @@ public class SeleniumBase extends ExtentReporter implements Browser, Element {
 			String attribute = ele.getAttribute("value");
 			if (attribute.length() > 1) {
 				ele.sendKeys(data);
+				
 			} else {
 				ele.sendKeys(data);
 			}
@@ -1184,6 +1187,8 @@ public class SeleniumBase extends ExtentReporter implements Browser, Element {
 		System.out.println("Started at Time (in Ms):  " + startTime);
 		
 		try {
+			
+			
 			
 
 			while (true) {

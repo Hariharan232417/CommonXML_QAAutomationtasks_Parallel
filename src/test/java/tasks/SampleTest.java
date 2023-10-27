@@ -9,7 +9,7 @@ public class SampleTest extends SetUp{
 	@Test
 	public void test001()
 	{
-		SamplePageClass p1 = new SamplePageClass(driver);
+		SamplePageClass p1 = new SamplePageClass();
 		p1.enterText();
 	}
 
